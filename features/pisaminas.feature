@@ -6,3 +6,9 @@ Scenario:Titulo del tablero
 	Then debo leer "A1"
 	And debo leer "A2"
 	And debo leer "A3"
+
+Scenario:Titulo del tablero
+	Given navego la pagina
+	When elijo "A1"
+	And presionar boton "Avanzar"
+	Then debo leer "mina"
