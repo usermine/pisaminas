@@ -1,14 +1,23 @@
 class Pisaminas
     
 	def marcarPos pos
-		bomba = "A1"
-		@var = "A0"
+
+		tablero = ["A1", "A2", "A3"]
+
+		indiceRND= Random.rand(tablero.length)
+		bomba = tablero[indiceRND]
+
 		if (pos==bomba)
-			@var = "perdiste"
+			var = "perdiste"
 		elsif 
-			@var ="avanzar"
+			var =  "avanzar"
 		end
-		return @var
+		return var
 	end
 
 end
+
+#pisaminas = Pisaminas.new
+#result = pisaminas.marcarPos("A3")
+
+#puts result
