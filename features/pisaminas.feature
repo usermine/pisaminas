@@ -7,8 +7,4 @@ Scenario:Titulo del tablero
 	And debo leer "A2"
 	And debo leer "A3"
 
-Scenario:Titulo del tablero
-	Given navego la pagina
-	When elijo "A1"
-	Then debo leer "perdiste"
 

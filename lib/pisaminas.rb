@@ -1,11 +1,9 @@
 class Pisaminas
     
 	def marcarPos pos
-
 		tablero = ["A1", "A2", "A3"]
-
 		indiceRND= Random.rand(tablero.length)
-		bomba = tablero[indiceRND]
+		bomba = "A2"#tablero[indiceRND]
 
 		if (pos==bomba)
 			var = "perdiste"
