@@ -4,7 +4,9 @@ require './lib/pisaminas.rb'
 
 get '/' do
 	pisaminas = Pisaminas.new
+	pisaminas.cargarVariable
 	session["pisaminas"] = pisaminas
+
 	erb(:pisaminas)
 end
 
