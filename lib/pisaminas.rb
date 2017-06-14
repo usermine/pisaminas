@@ -1,14 +1,14 @@
 class Pisaminas
     
 	def marcarPos pos
-		bomba = "A3"
+		bomba = "A1"
+		@var = "A0"
 		if (pos==bomba)
-			var = "perdiste"
+			@var = "perdiste"
 		elsif 
-			var ="avanzar"
+			@var ="avanzar"
 		end
-
-		return var
+		return @var
 	end
 
 end

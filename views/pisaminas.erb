@@ -4,8 +4,7 @@
 	<title></title>
 </head>
 <body>
-<form>
-
+<form method="POST" action="/jugar">
 	<TABLE BORDER>
 		<tr>
 			<td colspan="3"> Juego PisaMinas</td>
@@ -13,7 +12,12 @@
 		<TR>
 			<TD>A1</TD> <TD>A2</TD> <TD>A3</TD>
 		</TR>
+		<tr><td colspan="3"><%= @eleccion %></td></tr>
 	</TABLE>
+	<select name="seleccion">
+		<option value="A1">A1</option>
+	</select>
+	<input type="submit" name="avanzar" value="Avanzar">
 </form>
 </body>
 </html>

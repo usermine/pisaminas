@@ -12,7 +12,7 @@ describe Pisaminas do
 		pisaminas = Pisaminas.new
 		result = pisaminas.marcarPos("A3")
 
-		expect(result).to eq "perdiste"
+		expect(result).to eq "mina"
 	end
 
 end

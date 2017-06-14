@@ -10,5 +10,5 @@ Scenario:Titulo del tablero
 Scenario:Titulo del tablero
 	Given navego la pagina
 	When elijo "A1"
-	And presionar boton "Avanzar"
-	Then debo leer "mina"
+	Then debo leer "perdiste"
+
